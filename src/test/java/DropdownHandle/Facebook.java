@@ -39,7 +39,7 @@ public static void main(String[] args) {
 			String text=gender.get(i).getText();
 			System.out.println(text);
 
-			if(text.equalsIgnoreCase("Custom")) {
+			if(text.equalsIgnoreCase("Male")) {
 				gender.get(i).click();
 			break;
 
